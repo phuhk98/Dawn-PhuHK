@@ -1,0 +1,74 @@
+.tab-collection-content ul.nav.nav-tabs {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  padding-left: 0;
+}
+
+.tab-collection-content ul.nav.nav-tabs li {
+  margin-right: 20px;
+}
+
+.tab-collection-content ul.nav.nav-tabs li.active a {
+  color: #000;
+}
+
+.tab-collection-content .tab-content .tab-pane {
+  display: none;
+}
+
+.tab-collection-content .tab-content .tab-pane.active {
+  display: block;
+}
+
+.tab-collection-content {
+  max-width: 120rem;
+  margin: auto;
+  padding: 0 5rem;
+}
+.card--standard>.card__content .card__information h3 a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 25px;
+    color: #7143b6;
+    text-align: left;
+}
+
+body .card-information .price,.card-information .price span s {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: left;
+    letter-spacing: .01em;
+    color: #7143b6;
+    margin-top: 5px;
+}
+
+.card--standard .card__inner {
+    border-radius: 10px;
+}
+
+.card .card__inner .card__media {
+    border-radius: 10px;
+}
+
+.quick-add .quick-add__submit {
+    background: #1727cf;
+    box-shadow: 0 2px 2px #0000001a;
+    border-radius: 25px;
+    text-transform: uppercase;
+    padding: 0;
+    font-weight: 600;
+    color: #fff;
+}
+
+.button--secondary:after {
+    display: none;
+}
+@media (max-width: 749px) {
+  .tab-collection-content {
+    padding: 0 1.5rem;
+  }
+}
